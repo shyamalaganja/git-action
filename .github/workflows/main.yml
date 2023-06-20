@@ -7,7 +7,7 @@ jobs:
      runs-on: ubuntu
      steps:
      - name: echoing some information
-        run: echo "hello world"
-       - name: Checkout
+       run: echo "hello world"
+     - name: Checkout
        uses: actions/checkout@v3.5.3
-       - run: python test.py
+     - run: python test.py
