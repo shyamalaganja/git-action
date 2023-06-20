@@ -7,3 +7,4 @@ jobs:
      runs-on: ubuntu
      steps:
        - run: echo "hello world"
+       - run: python test.py
